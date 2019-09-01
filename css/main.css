@@ -1,0 +1,48 @@
+body {
+    color: aliceblue;
+}
+
+
+#section0 {
+    /* Credit for image: ID 145599490 © Atmosphere1 | Dreamstime.com */
+    background-image: url('../images/dreamstime_s_98314926.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#section1 {
+    /* Credit for image: ID 145599490 © Atmosphere1 | Dreamstime.com */
+    background-image: url('../images/dreamstime_s_145599490.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#section2 {
+    /* Credit for image: ID 98314913 © Atmosphere1 | Dreamstime.com */
+    background-image: url('../images/dreamstime_s_98314913.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#header, #footer {
+    position: fixed;
+    height: 50px;
+    display: block;
+    width: 100%;
+    z-index: 9;
+    text-align: center;
+    color: #f2f2f2;
+    padding: 20px 0 0 0;
+}
+
+.navbar-text{
+    padding-left: 15px;
+}
+
+.navbar-toggler{
+    border: none;
+    
+}
