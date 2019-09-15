@@ -11,21 +11,12 @@ $(document).ready(function () {
         autoScrolling: true,
         scrollHorizontally: true,
         anchors: ['firstPage', 'secondPage', 'thirdPage'],
-        menu: '#myMenu'
-        // afterSlideLoad: function (anchorLink, index, slideAnchor, slideIndex) {
-        //     var loadedSlide = $(this);
-
-        //     // //первый слайд второго раздела
-        //     // if (anchorLink == 'secondPage' && slideIndex == 1) {
-        //     //     alert("Первый слайд загружен");
-        //     // }
-
-        //     // //второй слайд второго раздела (supposing #secondSlide is the
-        //     // //привязка для второго раздела
-        //     // if (index == 2 && slideIndex == 'secondSlide') {
-        //     //     alert("Второй слайд загружен");
-        //     // }
-        // }
+        menu: '#myMenu',
+        slidesNavigation: true,
+        controlArrows: false,
+        responsiveSlides: true,
+        loopHorizontal: false
+       
     });
 
     //methods

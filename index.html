@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 
-<body >
+<body>
     <div id='header'>
         <nav id="navbar-main" class="navbar-nav navbar-expand-lg navbar-dark">
             <div class="container-fluid">
@@ -56,7 +56,7 @@
         </div>
         <!-- project -->
         <div class="section" id="section1">
-            <!-- <div class="slide active">
+            <div class="slide">
                 <h2>Slide 1</h2>
             </div>
             <div class="slide">
@@ -67,10 +67,40 @@
             </div>
             <div class="slide">
                 <h2>Slide 4</h2>
-            </div> -->
+            </div>
         </div>
         <!-- contact -->
-        <div class="section" id="section2"></div>
+        <div class="section" id="section2">
+            <div class="container">
+                <form class="text-center" action="#!">
+
+                    <p class="h4 mb-4">Contact me</p>
+
+                    <!-- Name -->
+                    <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name">
+
+                    <!-- Email -->
+                    <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail">
+
+                    <!-- Message -->
+                    <div class="form-group">
+                        <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3"
+                            placeholder="Message"></textarea>
+                    </div>
+
+                    <!-- Copy -->
+                    <div class="custom-control custom-checkbox mb-4">
+                        <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy">
+                        <label class="custom-control-label" for="defaultContactFormCopy">Send me a copy of this
+                            message</label>
+                    </div>
+
+                    <!-- Send button -->
+                    <button class="btn btn-info" type="submit">Send</button>
+
+                </form>
+            </div>
+        </div>
     </div>
 
     <!-- Optional JavaScript -->
