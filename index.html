@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Squada+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.min.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
@@ -53,6 +54,7 @@
 
         <!-- landing page -->
         <div class="section" id="section0">
+            <!-- Motto -->
             <div class="jumbotron text-center" id="title-header">
                 <p>_______</p>
                 <p>______________________</p>
@@ -62,71 +64,132 @@
             </div>
 
         </div>
-        <!-- project -->
+        <!-- projects -->
         <div class="section" id="section1">
             <div class="slide">
-                <h2>Slide 1</h2>
+                <a class="btn btn-social-icon btn-lg btn-github" href='https://github.com/drinkcoffee101/SparkCourse'
+                    target="_blank" style='color: white;'>
+                    <i class="fa fa-github fa-2x"></i>
+                </a>
+                <h1>SparkCourse:</h1>
+                <div class="row justify-content-center">
+                    <div class="col-6 col-md-10">
+                        <span class="projectHeaderText">
+                            A web scrapper centered around music production that allows users to gather resources from
+                            YouTube and Reddit. The user can keep track of what resources they have completed.
+                        </span>
+                    </div>
+                </div>
+                <iframe width="853" height="505" src="https://www.youtube.com/embed/DciZfwRgUnc">
+                </iframe>
+                <div class="row justify-content-center">
+
+                    <div class="col-3">
+                        <span class="projectFooterText">
+                            Front-End: Marerialize, iziModal, Shepard
+                        </span>
+                    </div>
+                    <div class="col-4">
+                        <span class="projectFooterText">
+                            Back-End: Node.js, Express, MySQL/Sequelize, PassportJS, NightmareJS, CheerioJS
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="slide"> -->
+            <div class="slide">
+                <a class="btn btn-social-icon btn-lg btn-github" href='https://github.com/satchelsmidt/Date_Planner'
+                    target="_blank" style='color: white;'>
+                    <i class="fa fa-github fa-2x"></i>
+                </a>
+                <h1>Kindler:</h1>
+                <div class="row justify-content-center">
+                    <div class="col-6 col-md-10">
+                        <span class="projectHeaderText">
+                            An interactive mobile app that helps both individuals and couples plan for a date night.
+                            Individuals have the ability to narrow down their options by selecting what type of food
+                            they would like to eat, what genre of movie that liked to see, and what type of event they
+                            would like to experience.
+                        </span>
+                    </div>
+                </div>
+                <iframe width="853" height="505" src="https://www.youtube.com/embed/9QN2OPpL3Kc">
+                </iframe>
+                <div class="row justify-content-center">
+
+                    <div class="col-7">
+                        <span class="projectFooterText">
+                            Front-End: React Native {gesture-handler, paper, reainmated, screens, snap-carousel, svg,
+                            web, navigation, navigation-animated-switch, navigation-material-bottom-tabs,
+                            navigation-stack}, Expo, Native Base, Babel
+                        </span>
+                    </div>
+                    <div class="col-5">
+                        <span class="projectFooterText">
+                            Back-End: Node.js, Express, MongoDB/Mongoose, PassportJS, NightmareJS, CheerioJS, Axios,
+                            dotenv, Expo Google Auth, Moment
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <!-- </div> -->
+            <div class="slide">
+                <h2>TBA</h2>
             </div>
             <div class="slide">
-                <h2>Slide 2</h2>
+                <h2>TBA</h2>
             </div>
-            <div class="slide">
-                <h2>Slide 3</h2>
-            </div>
-            <div class="slide">
-                <h2>Slide 4</h2>
+
+            <!-- contact form-->
+            <div class="section" id="section2">
+                <div class="container">
+                    <form class="text-center" action="#!">
+
+                        <p class="h4 mb-4">Contact me</p>
+
+                        <!-- Name -->
+                        <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name">
+
+                        <!-- Email -->
+                        <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail">
+
+                        <!-- Message -->
+                        <div class="form-group">
+                            <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3"
+                                placeholder="Message"></textarea>
+                        </div>
+
+                        <!-- Copy -->
+                        <div class="custom-control custom-checkbox mb-4">
+                            <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy">
+                            <label class="custom-control-label" for="defaultContactFormCopy">Send me a copy of this
+                                message</label>
+                        </div>
+
+                        <!-- Send button -->
+                        <button class="btn btn-info" type="submit">Send</button>
+
+                    </form>
+                </div>
             </div>
         </div>
-        <!-- contact -->
-        <div class="section" id="section2">
-            <div class="container">
-                <form class="text-center" action="#!">
 
-                    <p class="h4 mb-4">Contact me</p>
-
-                    <!-- Name -->
-                    <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name">
-
-                    <!-- Email -->
-                    <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail">
-
-                    <!-- Message -->
-                    <div class="form-group">
-                        <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3"
-                            placeholder="Message"></textarea>
-                    </div>
-
-                    <!-- Copy -->
-                    <div class="custom-control custom-checkbox mb-4">
-                        <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy">
-                        <label class="custom-control-label" for="defaultContactFormCopy">Send me a copy of this
-                            message</label>
-                    </div>
-
-                    <!-- Send button -->
-                    <button class="btn btn-info" type="submit">Send</button>
-
-                </form>
-            </div>
-        </div>
-    </div>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.extensions.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/vendors/easings.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/vendors/scrolloverflow.min.js"></script>
-    <script src="js/main.js"></script>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.extensions.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/vendors/easings.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/vendors/scrolloverflow.min.js"></script>
+        <script src="js/main.js"></script>
 
 </body>
 

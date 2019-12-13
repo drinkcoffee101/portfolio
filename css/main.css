@@ -1,7 +1,7 @@
 
 
 body {
-    color: aliceblue;
+    color: white;
 }
 
 
@@ -70,4 +70,12 @@ body {
 .navbar-toggler{
     border: none;
     
+}
+
+.projectHeaderText {
+    font-size: 24px;
+}
+
+.projectFooterText{
+    font-size: 24px;
 }
